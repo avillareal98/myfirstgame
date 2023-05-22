@@ -1,0 +1,13 @@
+/ Draw a Grid
+/ Add a Tile struct
+/ Add Tile State
+/ Place the Mines
+/ Add the numbers!
+/ Place Flags
+/ Next steps and Debug
+/ Add Flood-fill
+/ Analyze Crazy game (2 move game) (don't code)
+/ Analyze Minesweeper paradox (don't code)
+/ Add a Game State (win and lose)
+/ Test the game
+/ Show a Game Timer
