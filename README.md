@@ -1,4 +1,6 @@
-Minesweeper made by Carl Villa-Real
+# Minesweeper
+
+A 2D Puzzle game made by Carl Villa-Real using C Raylib API
 
 # How to Access the Minesweeper Game
 
