@@ -7,10 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "C:/cmake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake"
   "C:/cmake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake"
   "C:/cmake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake"
-  "C:/cmake/share/cmake-3.26/Modules/CMakeSystem.cmake.in"
   "C:/cmake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/cmake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake"
   "C:/cmake/share/cmake-3.26/Modules/ExternalProject.cmake"
@@ -34,7 +32,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.26.0-rc4/CMakeSystem.cmake"
   "raylib-populate-prefix/tmp/raylib-populate-mkdirs.cmake"
   "raylib-populate-prefix/src/raylib-populate-stamp/download-raylib-populate.cmake"
   "raylib-populate-prefix/src/raylib-populate-stamp/extract-raylib-populate.cmake"

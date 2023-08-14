@@ -97,7 +97,7 @@ void InitGameplayScreen(void)
     framesCounter = 0;
     finishScreen = 0;
 
-    flagSprite = LoadTexture("resources/flag.png");
+    flagSprite = LoadTexture("./resources/flag.png");
 
     GameInit();
 }

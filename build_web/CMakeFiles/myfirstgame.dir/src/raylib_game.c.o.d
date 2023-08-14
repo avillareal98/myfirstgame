@@ -1,9 +1,16 @@
 CMakeFiles/myfirstgame.dir/src/raylib_game.c.o: \
   F:\myfirstgame\src\raylib_game.c \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\stdio.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\wasi\api.h \
+  C:\emsdk\upstream\lib\clang\17\include\stddef.h \
+  C:\emsdk\upstream\lib\clang\17\include\__stddef_max_align_t.h \
+  C:\emsdk\upstream\lib\clang\17\include\stdint.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\stdint.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\bits\alltypes.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\bits\stdint.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\features.h \
   C:\emsdk\upstream\emscripten\cache\sysroot\include\compat\stdlib.h \
   C:\emsdk\upstream\emscripten\cache\sysroot\include\stdlib.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\features.h \
-  C:\emsdk\upstream\emscripten\cache\sysroot\include\bits\alltypes.h \
   C:\emsdk\upstream\emscripten\cache\sysroot\include\alloca.h \
   C:\emsdk\upstream\emscripten\cache\sysroot\include\compat\time.h \
   C:\emsdk\upstream\emscripten\cache\sysroot\include\time.h \

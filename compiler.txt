@@ -14,4 +14,4 @@ emcmake cmake .. -DPLATFORM=Web -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXE_LINKER_FL
 emmake make
 
 run the website:
-python -m http.server
+emrun myfirstgame.html

@@ -8,7 +8,7 @@
             "name": "Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/raylib_game",
+            "program": "C:/myfirstgame/raylib_game",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

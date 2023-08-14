@@ -1,4 +1,4 @@
-
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
@@ -52,8 +52,6 @@ static void UpdateDrawFrame(void);          // Update and draw one frame
 int main(void)
 {
     srand(time(0));
-
-    SetConfigFlags(FLAG_MSAA_4X_HINT);
     
     // Initialization
     //---------------------------------------------------------
@@ -62,13 +60,13 @@ int main(void)
     InitAudioDevice();      // Initialize audio device
 
     // Load global data (assets that must be available in all screens, i.e. font)
-    font = LoadFont("resources/mecha.png");
-    music = LoadMusicStream("resources/ambient.ogg");
-    fxCoin = LoadSound("resources/coin.wav");
-    digSound = LoadSound("resources/dig1.wav");
-    flagSound = LoadSound("resources/dig2.wav");
-    loseSound = LoadSound("resources/explosion.wav");
-    winSound = LoadSound("resources/win.wav");
+    font = LoadFont("./resources/mecha.png");
+    music = LoadMusicStream("./resources/ambient.ogg");
+    fxCoin = LoadSound("./resources/coin.wav");
+    digSound = LoadSound("./resources/dig1.wav");
+    flagSound = LoadSound("./resources/dig2.wav");
+    loseSound = LoadSound("./resources/explosion.wav");
+    winSound = LoadSound("./resources/win.wav");
 
     SetMusicVolume(music, 1.0f);
     PlayMusicStream(music);
@@ -78,7 +76,7 @@ int main(void)
     InitLogoScreen();
 
 #if defined(PLATFORM_WEB)
-    emscripten_set_main_loop(UpdateDrawFrame, 60, 1);
+    emscripten_set_main_loop(UpdateDrawFrame, 0, 1);
 #else
     SetTargetFPS(60);       // Set our game to run at 60 frames-per-second
     //--------------------------------------------------------------------------------------
