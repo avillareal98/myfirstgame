@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\myfirstgame\build\_deps\raylib-subbuild\CMakeFiles\4142fd7da3d3408e178ea3e1103192e0\raylib-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\myfirstgame\build\_deps\raylib-subbuild\CMakeFiles\4142fd7da3d3408e178ea3e1103192e0\raylib-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\myfirstgame\build\_deps\raylib-subbuild\CMakeFiles\4142fd7da3d3408e178ea3e1103192e0\raylib-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\myfirstgame\build\_deps\raylib-subbuild\CMakeFiles\4142fd7da3d3408e178ea3e1103192e0\raylib-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\myfirstgame\build\_deps\raylib-subbuild\CMakeFiles\4142fd7da3d3408e178ea3e1103192e0\raylib-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\myfirstgame\build\_deps\raylib-subbuild\CMakeFiles\4142fd7da3d3408e178ea3e1103192e0\raylib-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\myfirstgame\build\_deps\raylib-subbuild\CMakeFiles\4142fd7da3d3408e178ea3e1103192e0\raylib-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\myfirstgame\build\_deps\raylib-subbuild\CMakeFiles\4142fd7da3d3408e178ea3e1103192e0\raylib-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\myfirstgame\build\_deps\raylib-subbuild\CMakeFiles\283e1a39e5cc79098461734d53e35a07\raylib-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\myfirstgame\build\_deps\raylib-subbuild\CMakeFiles\302ebc069574a44165da16e984171a71\raylib-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\myfirstgame\build\_deps\raylib-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\myfirstgame\build\_deps\raylib-subbuild\CMakeFiles\raylib-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{50679537-38F5-3576-8749-8F36155187D2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

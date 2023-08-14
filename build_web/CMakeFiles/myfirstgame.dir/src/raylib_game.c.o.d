@@ -1,0 +1,25 @@
+CMakeFiles/myfirstgame.dir/src/raylib_game.c.o: \
+  F:\myfirstgame\src\raylib_game.c \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\compat\stdlib.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\stdlib.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\features.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\bits\alltypes.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\alloca.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\compat\time.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\time.h \
+  F:\myfirstgame\build_web\_deps\raylib-src\src\raylib.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\compat\stdarg.h \
+  C:\emsdk\upstream\lib\clang\17\include\stdarg.h \
+  C:\emsdk\upstream\lib\clang\17\include\stdbool.h \
+  F:\myfirstgame\src\screens.h \
+  F:\myfirstgame\build_web\_deps\raylib-src\src\raymath.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\compat\math.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\math.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\emscripten\emscripten.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\emscripten\em_asm.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\emscripten\em_macros.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\emscripten\em_types.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\emscripten\em_js.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\emscripten\promise.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\emscripten\wget.h \
+  C:\emsdk\upstream\emscripten\cache\sysroot\include\emscripten\version.h

@@ -1,0 +1,1 @@
+C:\emsdk\upstream\emscripten\emcc.bat -O3 -DNDEBUG -s USE_GLFW=3 @CMakeFiles\myfirstgame.dir\objects1.rsp -o myfirstgame.html @CMakeFiles\myfirstgame.dir\linkLibs.rsp

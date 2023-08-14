@@ -1,0 +1,10 @@
+^F:\MYFIRSTGAME\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\302EBC069574A44165DA16E984171A71\GENERATE.STAMP.RULE
+setlocal
+C:\cmake\bin\cmake.exe -SF:/myfirstgame/build/_deps/raylib-subbuild -BF:/myfirstgame/build/_deps/raylib-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/myfirstgame/build/_deps/raylib-subbuild/raylib-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -52,6 +52,8 @@ static void UpdateDrawFrame(void);          // Update and draw one frame
 int main(void)
 {
     srand(time(0));
+
+    SetConfigFlags(FLAG_MSAA_4X_HINT);
     
     // Initialization
     //---------------------------------------------------------

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8D80C3F8-47CD-3681-A4DC-0A1A8A8365CF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\myfirstgame\build\CMakeFiles\9575e98049144a5a8a5a91931ed4d3ad\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\cmake\bin\cmake.exe -SF:/myfirstgame -BF:/myfirstgame/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/myfirstgame/build/myfirstgame.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\cmake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\cmake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\cmake\share\cmake-3.26\Modules\CPack.cmake;C:\cmake\share\cmake-3.26\Modules\CPackComponent.cmake;C:\cmake\share\cmake-3.26\Modules\CheckCCompilerFlag.cmake;C:\cmake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\cmake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\cmake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\cmake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\cmake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\cmake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\cmake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\cmake\share\cmake-3.26\Modules\FetchContent.cmake;C:\cmake\share\cmake-3.26\Modules\FetchContent\CMakeLists.cmake.in;C:\cmake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\cmake\share\cmake-3.26\Modules\FindThreads.cmake;C:\cmake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\cmake\share\cmake-3.26\Modules\Internal\CheckCompilerFlag.cmake;C:\cmake\share\cmake-3.26\Modules\Internal\CheckFlagCommonConfig.cmake;C:\cmake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\cmake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\cmake\share\cmake-3.26\Templates\CPackConfig.cmake.in;F:\myfirstgame\CMakeLists.txt;F:\myfirstgame\build\CMakeFiles\3.26.0-rc4\CMakeCCompiler.cmake;F:\myfirstgame\build\CMakeFiles\3.26.0-rc4\CMakeCXXCompiler.cmake;F:\myfirstgame\build\CMakeFiles\3.26.0-rc4\CMakeRCCompiler.cmake;F:\myfirstgame\build\CMakeFiles\3.26.0-rc4\CMakeSystem.cmake;F:\myfirstgame\build\_deps\raylib-src\CMakeLists.txt;F:\myfirstgame\build\_deps\raylib-src\CMakeOptions.txt;F:\myfirstgame\build\_deps\raylib-src\cmake\AddIfFlagCompiles.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\BuildOptions.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\CompileDefinitions.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\CompilerFlags.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\EnumOption.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\GlfwImport.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\InstallConfigurations.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\JoinPaths.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\LibraryConfigurations.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\LibraryPathToLinkerFlags.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\PackConfigurations.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\PopulateConfigVariablesLocally.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\raylib-config-version.cmake;F:\myfirstgame\build\_deps\raylib-src\raylib.pc.in;F:\myfirstgame\build\_deps\raylib-src\src\CMakeLists.txt;F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\CMake\glfw3Config.cmake.in;F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\CMakeLists.txt;F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\myfirstgame\build\CMakeFiles\generate.stamp;F:\myfirstgame\build\_deps\raylib-build\CMakeFiles\generate.stamp;F:\myfirstgame\build\_deps\raylib-build\raylib\CMakeFiles\generate.stamp;F:\myfirstgame\build\_deps\raylib-build\raylib\external\glfw\CMakeFiles\generate.stamp;F:\myfirstgame\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\cmake\bin\cmake.exe -SF:/myfirstgame -BF:/myfirstgame/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/myfirstgame/build/myfirstgame.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\cmake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\cmake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\cmake\share\cmake-3.26\Modules\CPack.cmake;C:\cmake\share\cmake-3.26\Modules\CPackComponent.cmake;C:\cmake\share\cmake-3.26\Modules\CheckCCompilerFlag.cmake;C:\cmake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\cmake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\cmake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\cmake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\cmake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\cmake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\cmake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\cmake\share\cmake-3.26\Modules\FetchContent.cmake;C:\cmake\share\cmake-3.26\Modules\FetchContent\CMakeLists.cmake.in;C:\cmake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\cmake\share\cmake-3.26\Modules\FindThreads.cmake;C:\cmake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\cmake\share\cmake-3.26\Modules\Internal\CheckCompilerFlag.cmake;C:\cmake\share\cmake-3.26\Modules\Internal\CheckFlagCommonConfig.cmake;C:\cmake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\cmake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\cmake\share\cmake-3.26\Templates\CPackConfig.cmake.in;F:\myfirstgame\CMakeLists.txt;F:\myfirstgame\build\CMakeFiles\3.26.0-rc4\CMakeCCompiler.cmake;F:\myfirstgame\build\CMakeFiles\3.26.0-rc4\CMakeCXXCompiler.cmake;F:\myfirstgame\build\CMakeFiles\3.26.0-rc4\CMakeRCCompiler.cmake;F:\myfirstgame\build\CMakeFiles\3.26.0-rc4\CMakeSystem.cmake;F:\myfirstgame\build\_deps\raylib-src\CMakeLists.txt;F:\myfirstgame\build\_deps\raylib-src\CMakeOptions.txt;F:\myfirstgame\build\_deps\raylib-src\cmake\AddIfFlagCompiles.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\BuildOptions.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\CompileDefinitions.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\CompilerFlags.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\EnumOption.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\GlfwImport.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\InstallConfigurations.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\JoinPaths.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\LibraryConfigurations.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\LibraryPathToLinkerFlags.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\PackConfigurations.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\PopulateConfigVariablesLocally.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\raylib-config-version.cmake;F:\myfirstgame\build\_deps\raylib-src\raylib.pc.in;F:\myfirstgame\build\_deps\raylib-src\src\CMakeLists.txt;F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\CMake\glfw3Config.cmake.in;F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\CMakeLists.txt;F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\myfirstgame\build\CMakeFiles\generate.stamp;F:\myfirstgame\build\_deps\raylib-build\CMakeFiles\generate.stamp;F:\myfirstgame\build\_deps\raylib-build\raylib\CMakeFiles\generate.stamp;F:\myfirstgame\build\_deps\raylib-build\raylib\external\glfw\CMakeFiles\generate.stamp;F:\myfirstgame\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\cmake\bin\cmake.exe -SF:/myfirstgame -BF:/myfirstgame/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/myfirstgame/build/myfirstgame.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\cmake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\cmake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\cmake\share\cmake-3.26\Modules\CPack.cmake;C:\cmake\share\cmake-3.26\Modules\CPackComponent.cmake;C:\cmake\share\cmake-3.26\Modules\CheckCCompilerFlag.cmake;C:\cmake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\cmake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\cmake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\cmake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\cmake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\cmake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\cmake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\cmake\share\cmake-3.26\Modules\FetchContent.cmake;C:\cmake\share\cmake-3.26\Modules\FetchContent\CMakeLists.cmake.in;C:\cmake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\cmake\share\cmake-3.26\Modules\FindThreads.cmake;C:\cmake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\cmake\share\cmake-3.26\Modules\Internal\CheckCompilerFlag.cmake;C:\cmake\share\cmake-3.26\Modules\Internal\CheckFlagCommonConfig.cmake;C:\cmake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\cmake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\cmake\share\cmake-3.26\Templates\CPackConfig.cmake.in;F:\myfirstgame\CMakeLists.txt;F:\myfirstgame\build\CMakeFiles\3.26.0-rc4\CMakeCCompiler.cmake;F:\myfirstgame\build\CMakeFiles\3.26.0-rc4\CMakeCXXCompiler.cmake;F:\myfirstgame\build\CMakeFiles\3.26.0-rc4\CMakeRCCompiler.cmake;F:\myfirstgame\build\CMakeFiles\3.26.0-rc4\CMakeSystem.cmake;F:\myfirstgame\build\_deps\raylib-src\CMakeLists.txt;F:\myfirstgame\build\_deps\raylib-src\CMakeOptions.txt;F:\myfirstgame\build\_deps\raylib-src\cmake\AddIfFlagCompiles.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\BuildOptions.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\CompileDefinitions.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\CompilerFlags.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\EnumOption.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\GlfwImport.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\InstallConfigurations.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\JoinPaths.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\LibraryConfigurations.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\LibraryPathToLinkerFlags.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\PackConfigurations.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\PopulateConfigVariablesLocally.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\raylib-config-version.cmake;F:\myfirstgame\build\_deps\raylib-src\raylib.pc.in;F:\myfirstgame\build\_deps\raylib-src\src\CMakeLists.txt;F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\CMake\glfw3Config.cmake.in;F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\CMakeLists.txt;F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\myfirstgame\build\CMakeFiles\generate.stamp;F:\myfirstgame\build\_deps\raylib-build\CMakeFiles\generate.stamp;F:\myfirstgame\build\_deps\raylib-build\raylib\CMakeFiles\generate.stamp;F:\myfirstgame\build\_deps\raylib-build\raylib\external\glfw\CMakeFiles\generate.stamp;F:\myfirstgame\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\cmake\bin\cmake.exe -SF:/myfirstgame -BF:/myfirstgame/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/myfirstgame/build/myfirstgame.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\cmake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\cmake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\cmake\share\cmake-3.26\Modules\CPack.cmake;C:\cmake\share\cmake-3.26\Modules\CPackComponent.cmake;C:\cmake\share\cmake-3.26\Modules\CheckCCompilerFlag.cmake;C:\cmake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\cmake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\cmake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\cmake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\cmake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\cmake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\cmake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\cmake\share\cmake-3.26\Modules\FetchContent.cmake;C:\cmake\share\cmake-3.26\Modules\FetchContent\CMakeLists.cmake.in;C:\cmake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\cmake\share\cmake-3.26\Modules\FindThreads.cmake;C:\cmake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\cmake\share\cmake-3.26\Modules\Internal\CheckCompilerFlag.cmake;C:\cmake\share\cmake-3.26\Modules\Internal\CheckFlagCommonConfig.cmake;C:\cmake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\cmake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\cmake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\cmake\share\cmake-3.26\Templates\CPackConfig.cmake.in;F:\myfirstgame\CMakeLists.txt;F:\myfirstgame\build\CMakeFiles\3.26.0-rc4\CMakeCCompiler.cmake;F:\myfirstgame\build\CMakeFiles\3.26.0-rc4\CMakeCXXCompiler.cmake;F:\myfirstgame\build\CMakeFiles\3.26.0-rc4\CMakeRCCompiler.cmake;F:\myfirstgame\build\CMakeFiles\3.26.0-rc4\CMakeSystem.cmake;F:\myfirstgame\build\_deps\raylib-src\CMakeLists.txt;F:\myfirstgame\build\_deps\raylib-src\CMakeOptions.txt;F:\myfirstgame\build\_deps\raylib-src\cmake\AddIfFlagCompiles.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\BuildOptions.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\CompileDefinitions.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\CompilerFlags.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\EnumOption.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\GlfwImport.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\InstallConfigurations.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\JoinPaths.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\LibraryConfigurations.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\LibraryPathToLinkerFlags.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\PackConfigurations.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\PopulateConfigVariablesLocally.cmake;F:\myfirstgame\build\_deps\raylib-src\cmake\raylib-config-version.cmake;F:\myfirstgame\build\_deps\raylib-src\raylib.pc.in;F:\myfirstgame\build\_deps\raylib-src\src\CMakeLists.txt;F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\CMake\glfw3.pc.in;F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\CMake\glfw3Config.cmake.in;F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\CMakeLists.txt;F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\myfirstgame\build\CMakeFiles\generate.stamp;F:\myfirstgame\build\_deps\raylib-build\CMakeFiles\generate.stamp;F:\myfirstgame\build\_deps\raylib-build\raylib\CMakeFiles\generate.stamp;F:\myfirstgame\build\_deps\raylib-build\raylib\external\glfw\CMakeFiles\generate.stamp;F:\myfirstgame\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

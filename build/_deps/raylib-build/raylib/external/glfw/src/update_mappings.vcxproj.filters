@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\myfirstgame\build\CMakeFiles\a576b3bd25a55ce9ec2f74dde1c29393\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="F:\myfirstgame\build\_deps\raylib-src\src\external\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="F:\myfirstgame\build\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{ED3137C1-970E-38D3-A082-29E5E2E74EE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ED30CF07-7E89-3137-8656-48E456CEB89E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

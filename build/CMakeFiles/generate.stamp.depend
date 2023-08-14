@@ -1,0 +1,26 @@
+# CMake generation dependency list for this directory.
+C:/cmake/share/cmake-3.26/Modules/CMakeCInformation.cmake
+C:/cmake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake
+C:/cmake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake
+C:/cmake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
+C:/cmake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+C:/cmake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake
+C:/cmake/share/cmake-3.26/Modules/CMakeRCInformation.cmake
+C:/cmake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
+C:/cmake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
+C:/cmake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/cmake/share/cmake-3.26/Modules/Compiler/MSVC-C.cmake
+C:/cmake/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake
+C:/cmake/share/cmake-3.26/Modules/Compiler/MSVC.cmake
+C:/cmake/share/cmake-3.26/Modules/FetchContent.cmake
+C:/cmake/share/cmake-3.26/Modules/FetchContent/CMakeLists.cmake.in
+C:/cmake/share/cmake-3.26/Modules/Platform/Windows-MSVC-C.cmake
+C:/cmake/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/cmake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake
+C:/cmake/share/cmake-3.26/Modules/Platform/Windows.cmake
+C:/cmake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+F:/myfirstgame/CMakeLists.txt
+F:/myfirstgame/build/CMakeFiles/3.26.0-rc4/CMakeCCompiler.cmake
+F:/myfirstgame/build/CMakeFiles/3.26.0-rc4/CMakeCXXCompiler.cmake
+F:/myfirstgame/build/CMakeFiles/3.26.0-rc4/CMakeRCCompiler.cmake
+F:/myfirstgame/build/CMakeFiles/3.26.0-rc4/CMakeSystem.cmake
