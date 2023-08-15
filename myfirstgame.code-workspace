@@ -1,0 +1,40 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"raylib.h": "c",
+			"math.h": "c",
+			"blocks.h": "c",
+			"stdio.h": "c",
+			"*.m": "c",
+			"limits.h": "c",
+			"ctype.h": "c",
+			"locale.h": "c",
+			"setjmp.h": "c",
+			"signal.h": "c",
+			"stdarg.h": "c",
+			"stdbool.h": "c",
+			"stddef.h": "c",
+			"stdint.h": "c",
+			"stdlib.h": "c",
+			"uchar.h": "c",
+			"wchar.h": "c",
+			"wctype.h": "c",
+			"assert.h": "c",
+			"errno.h": "c",
+			"fenv.h": "c",
+			"float.h": "c",
+			"iso646.h": "c",
+			"string.h": "c",
+			"time.h": "c",
+			"tgmath.h": "C",
+			"inttypes.h": "c",
+		},
+		"git.autoRepositoryDetection": false,
+		"git.enabled": false
+	}
+}

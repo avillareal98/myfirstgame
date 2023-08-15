@@ -1,6 +1,6 @@
 # Minesweeper
 
-A 2D Puzzle game made by Carl Villa-Real using C Raylib API
+A 2D Puzzle game made in C with Raylib
 
 # How to Access the Minesweeper Game
 
@@ -8,3 +8,4 @@ A 2D Puzzle game made by Carl Villa-Real using C Raylib API
 - Use Visual Studio Code to compile and run the source code.
 - NOTE: You may need to install Makefile extension on Visual Studio Code.
 - Once compiling and running, check the .exe file in the root directory.
+- NOTE: Work in Progress
