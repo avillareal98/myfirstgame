@@ -1,3 +1,4 @@
+Complete:
 / Draw a Grid
 / Add a Tile struct
 / Add Tile State
@@ -11,3 +12,41 @@
 / Add a Game State (win and lose)
 / Test the game
 / Show a Game Timer
+
+Plan:
+Devlog 1:
+- screen_title.c:
+    - Add play button (screen_gameplay.c), options button (screen_options.c), and quit button
+    - Add background image
+
+Devlog 2:
+- screen_options.c:
+    - Add mute/unmute music and sfx, volume, and main menu button (screen_title.c)
+    - Add background image
+
+Devlog 3:
+- screen_gameplay.c:
+    - Add pause screen (screen_pause.c)
+        - Add continue button
+        - Add menu button (screen_title.c)
+    - Change the flag image to new one
+        - Flag sprite: orange color version
+    - Change the text format color to blue
+    - Change the font of the text format (mecha.png) to new one (pixel.png)
+        - Solution: use rTexPacker
+
+Devlog 4:
+- screen_gameplay.c:
+    - Change the sfx: 
+        - Lose: lose.wav
+        - Win: different_win.wav
+        - Cell Flag: stomp.wav
+        - Cell Reveal: different_dig.wav
+        - Play Button: cash.wav
+    - Change the music (ambient.ogg) to new one (adventure.wav)
+
+- screen_logo.c:
+    - change the raylib logo to my logo (the one I'm working on)
+
+- screen_title.c:
+    - Add credits button
